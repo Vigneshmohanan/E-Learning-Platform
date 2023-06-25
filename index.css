@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding: 0 2rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+ul{
+    display: flex;
+}
+a{
+    color: rgb(243, 141, 32);
+    text-decoration: none;
+}
+li{
+    margin: 0 1rem;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+    color: rgb(243, 141, 32);
+    list-style: none;
+}
+.main{
+    display: flex;
+    align-items:center;
+}
+p{
+    color: rgb(200, 111, 17);
+    font-size: 2rem;
+}
